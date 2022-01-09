@@ -1,0 +1,16 @@
+# POST http://localhost:3000/search HTTP/1.1
+# content-type: application/json
+
+# {
+#     "keyword": "Anjana"
+# }
+
+# GET http://localhost:3000/connection HTTP/1.1
+
+# GET http://localhost:3000/search HTTP/1.1
+
+# GET http://localhost:3000/search/octokit HTTP/1.1
+
+GET http://localhost:3000/repo/octokit/auth-basic.js
+
+
