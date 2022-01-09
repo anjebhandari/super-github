@@ -3,12 +3,14 @@
 
 ## To clone :
 
-    run command: ` git clone git@github.com:anjebhandari/super-github.git `
+    run command: 
+    ` git clone git@github.com:anjebhandari/super-github.git `
 
 
 ## Install dependencies
 
-    run command: `yarn`
+    run command: 
+    `yarn`
 
 
 ## To run the project:
