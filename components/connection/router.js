@@ -3,4 +3,4 @@ import Controller from './controller';
 
 export default express 
     .Router()
-    .get("/file", Controller.all)
+    .get("/connection", Controller.all)

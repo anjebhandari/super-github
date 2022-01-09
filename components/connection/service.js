@@ -4,7 +4,6 @@ export class Service {
     async checkConnection() {
         try {
             const result = await axios.get('/zen');
-            console.log("result", result.status)
             return result.status
         }
         catch (error) {
