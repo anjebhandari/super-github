@@ -6,12 +6,11 @@ export class Service{
         try{
             let result;
             if(req.params.keyword){
-                //filter
-                result = await axios.get(`/orgs/${req.params.keyword}/repos`)
-                console.log("results", result.data)
-                console.log("request.params", req.params.keyword)
-
-
+                result = await axios.get('/search/repositories',{
+                    params: {
+                        q:JSON.stringify(req.params.keyword)
+                    }
+                })
             }else{
                 result = await axios.get('/orgs/octokit/repos')
             }
