@@ -7,7 +7,7 @@ import singleRepo from './components/singleRepo/router';
 
 const app = express();
 app.use(express.json())
-app.listen(3000);
+app.listen(5000);
 
 app.use('/', connectionRouter)
 app.use('/search',searchRouter)
